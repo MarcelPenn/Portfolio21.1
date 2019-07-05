@@ -1,0 +1,223 @@
+header {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  
+}
+
+.navbar {
+  margin: 20px 0;
+  
+}
+
+.nav-link:hover {
+ border-top: 3px solid #FF6347;
+ border-bottom: 3px solid #FF6347;
+}
+.navbar-brand {
+}
+
+.nav-item {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .navbar-link {
+  background: #262626;
+  color: #fff;
+}
+
+
+/*banner section */
+.banner {
+  
+  background: url("https://res.cloudinary.com/marpenncloud/image/upload/v1560807400/desk-1081708_1280_xzivvw.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding: 250px 0 200px;
+  
+}
+
+.btnD1 {
+  display: inline-block;
+  margin: 1em 0 0;
+  background: #FFF;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border: none;
+  font-weight: 800;
+}
+
+.btnD1:hover {
+  color: #FF6347;
+  text-decoration: none;
+}
+
+.navbar-light .navbar-toggler {
+  border: 2px solid black;
+  border-radius: 0;
+  outline: none;
+ 
+}
+
+.about {
+  background: url("https://res.cloudinary.com/marpenncloud/image/upload/v1561574186/notebook-1280538_1280_ayzeaf.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding: 250px 0 200px;
+}
+
+.top {
+  margin-top: -40px;
+}
+
+@media only screen and (max-width: 900px) .top {
+  margin-top: 400px;
+}
+
+.white-text {
+  color: white;
+
+}
+.bottom {
+  top: -200px;
+}
+
+
+/* portfolio */
+.portfolio {
+   background: url("https://res.cloudinary.com/marpenncloud/image/upload/v1561588714/gray-2158653_1280_k1fdks.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding-top: 80px;
+}
+
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: transparent;
+    
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 50%;
+    }
+}
+
+
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.port {
+  margin-top: 19%;
+  margin-left: 5%;
+  font-size: 40px;
+  border-bottom: 6px solid black;
+}
+
+.contact {
+   background: url("https://res.cloudinary.com/marpenncloud/image/upload/v1562011341/phone-3632553_1280_e3at3l.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding: 250px 0 200px;
+  margin-top: -10px;
+}
+
+.contact-section {
+  margin-top: -150px;
+  font-size: 200px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #FF6347;
+  height: 25px;
+}
+
+.white {
+  color: white;
+  margin: 10px;
+}
+
+ 
+.contact-col {
+  margin-top: -140px;
+  
+  
+}
+
+.col-width {
+  margin: 11px;
+ 
+}
+
+img {
+  width: 80px;
+}
+
+img:hover {
+  width: 90px;
+}
+.mail {
+  float: right;
+  margin-right: 110px;
+  margin-top: -120px;
+  font-weight: bold;
+  font-size: 20px;
+  border-right: 3px solid #FF6347;
+  border-left: 3px solid #FF6347;
+  padding: 10px;
+}
+
+.mdp {
+  border-top: 3px solid #FF6347;
+  border-bottom: 3px solid #ff6347;
+}
+
